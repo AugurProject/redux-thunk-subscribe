@@ -15,7 +15,7 @@ test("redux-thunk-subscribe", function (t) {
   t.assert(typeof store.dispatch === "function", "store.dispatch should be a function");
   t.assert(typeof store.subscribe === "function", "store.subscribe should be a function");
   t.assert(typeof store.replaceReducer === "function", "store.replaceReducer should be a function");
-  function actionCreator() {
+  function cueAction() {
     return function (dispatch, getState, subscribe) {
       t.assert(typeof dispatch === "function", "dispatch should be a function inside a thunk");
       t.assert(typeof getState === "function", "getState should be a function inside a thunk");
@@ -23,8 +23,9 @@ test("redux-thunk-subscribe", function (t) {
       t.strictEqual(dispatch, store.dispatch, "dispatch should be identical to store.dispatch");
       t.strictEqual(getState, store.getState, "getState should be identical to store.getState");
       t.strictEqual(subscribe, store.subscribe, "subscribe should be identical to store.subscribe");
+      t.deepEqual(dispatch({ type: "HAPPY_DAYS_ARE_HERE_AGAIN" }), { type: "HAPPY_DAYS_ARE_HERE_AGAIN" }, "happy days should be here again");
       t.end();
     };
   }
-  store.dispatch(actionCreator());
+  store.dispatch(cueAction());
 });
