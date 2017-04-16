@@ -1,6 +1,6 @@
 {
   "name": "redux-thunk-subscribe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "On-the-fly subscription enhancer for Redux thunks",
   "author": "Jack Peterson <jack@tinybike.net>",
   "license": "MIT",
@@ -19,7 +19,7 @@
   },
   "keywords": [
     "redux",
-    "redux-thunk",
+    "thunk",
     "subscribe",
     "enhancer"
   ],
