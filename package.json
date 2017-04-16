@@ -1,0 +1,38 @@
+{
+  "name": "redux-thunk-subscribe",
+  "version": "1.0.0",
+  "description": "On-the-fly subscription enhancer for Redux thunks",
+  "author": "Jack Peterson <jack@tinybike.net>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape ./test/*.js | ./node_modules/tap-spec/bin/cmd.js",
+    "lint": "eslint src && eslint test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinybike/redux-thunk-subscribe.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-thunk",
+    "subscribe",
+    "enhancer"
+  ],
+  "bugs": {
+    "url": "https://github.com/tinybike/redux-thunk-subscribe/issues"
+  },
+  "homepage": "https://github.com/tinybike/redux-thunk-subscribe#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "eslint": "^3.17.1",
+    "istanbul": "^0.4.5",
+    "redux": "^3.6.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
