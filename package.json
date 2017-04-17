@@ -1,6 +1,6 @@
 {
   "name": "redux-thunk-subscribe",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Makes store.subscribe available to Redux thunks",
   "author": "Jack Peterson <jack@tinybike.net>",
   "license": "MIT",
