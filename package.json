@@ -1,7 +1,7 @@
 {
   "name": "redux-thunk-subscribe",
-  "version": "1.0.1",
-  "description": "On-the-fly subscription enhancer for Redux thunks",
+  "version": "1.0.2",
+  "description": "Makes store.subscribe available to Redux thunks",
   "author": "Jack Peterson <jack@tinybike.net>",
   "license": "MIT",
   "main": "src/index.js",
