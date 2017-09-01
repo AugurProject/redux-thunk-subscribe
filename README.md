@@ -1,6 +1,6 @@
 # Redux Thunk Subscribe
 
-[![Build Status](https://travis-ci.org/tinybike/redux-thunk-subscribe.svg)](https://travis-ci.org/tinybike/redux-thunk-subscribe) [![Coverage Status](https://coveralls.io/repos/tinybike/redux-thunk-subscribe/badge.svg?branch=master&service=github)](https://coveralls.io/github/tinybike/redux-thunk-subscribe?branch=master) [![npm version](https://badge.fury.io/js/redux-thunk-subscribe.svg)](https://badge.fury.io/js/redux-thunk-subscribe)
+[![Build Status](https://travis-ci.org/AugurProject/redux-thunk-subscribe.svg)](https://travis-ci.org/AugurProject/redux-thunk-subscribe) [![Coverage Status](https://coveralls.io/repos/AugurProject/redux-thunk-subscribe/badge.svg?branch=master&service=github)](https://coveralls.io/github/AugurProject/redux-thunk-subscribe?branch=master) [![npm version](https://badge.fury.io/js/redux-thunk-subscribe.svg)](https://badge.fury.io/js/redux-thunk-subscribe)
 
 Similar to [Redux Thunk](https://github.com/gaearon/redux-thunk), but with `subscribe` available to thunks (in addition to `dispatch` and `getState`) so they can add listeners to the store on-the-fly.
 

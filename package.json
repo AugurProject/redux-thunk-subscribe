@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinybike/redux-thunk-subscribe.git"
+    "url": "git+https://github.com/AugurProject/redux-thunk-subscribe.git"
   },
   "keywords": [
     "redux",
@@ -24,9 +24,9 @@
     "enhancer"
   ],
   "bugs": {
-    "url": "https://github.com/tinybike/redux-thunk-subscribe/issues"
+    "url": "https://github.com/AugurProject/redux-thunk-subscribe/issues"
   },
-  "homepage": "https://github.com/tinybike/redux-thunk-subscribe#readme",
+  "homepage": "https://github.com/AugurProject/redux-thunk-subscribe#readme",
   "devDependencies": {
     "coveralls": "^2.11.15",
     "eslint": "^3.17.1",
